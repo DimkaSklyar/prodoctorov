@@ -77,10 +77,22 @@ body {
 
 .modal__content {
   max-width: 800px;
+  position: relative;
 }
 
 .modal__content__img {
   width: 100%;
+}
+
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  background: none;
+  outline: none 0;
+  border: none;
+  cursor: pointer;
+
 }
 
 .photos {

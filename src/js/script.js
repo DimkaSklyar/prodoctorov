@@ -35,7 +35,6 @@ const handleClickItem = (event) => {
   childrenContainer.hidden = !childrenContainer.hidden;
 };
 
-
 // модалка
 const handleToggleModal = (pathImg) => () => {
   let modal = document.getElementById('modal');
